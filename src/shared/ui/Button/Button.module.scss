@@ -1,0 +1,11 @@
+.Button {
+  color: var(--inverted-primary-color);
+  background-color: var(--inverted-bg-color);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.clear{
+  background-color: transparent;
+  color: var(--primary-color);
+}
