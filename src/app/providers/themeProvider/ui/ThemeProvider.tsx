@@ -1,4 +1,4 @@
-import {LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext, type ThemeContextProps, type ThemeType} from "./ThemeContext.ts";
+import {LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext, type ThemeContextProps, type ThemeType} from "../ThemeContext.ts";
 import {useMemo, useState} from "react";
 
 interface ThemeProviderProps {
