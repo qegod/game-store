@@ -22,7 +22,6 @@ export const RoutePaths: Record<RouteData, string>  = {
     [RouteData.NotFound]: '*',
 }
 
-
 export const RouteConfig: Record<RouteData, {path: string, element: JSX.Element}> = {
     [RouteData.Main]: {
         path: RoutePaths[RouteData.Main],
@@ -40,7 +39,7 @@ export const RouteConfig: Record<RouteData, {path: string, element: JSX.Element}
     }
 }
 
-
+export type RoutePathsT = (typeof RoutePaths)[RouteData];
 
 
 
