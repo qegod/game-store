@@ -1,7 +1,7 @@
 
 const MainPage = () => {
     return (
-        <div>
+        <div data-testid={"main-page"}>
             Main
         </div>
     );

@@ -1,5 +1,6 @@
-import {LOCAL_STORAGE_THEME_KEY, Theme, ThemeContext, type ThemeContextProps, type ThemeType} from "../ThemeContext.ts";
+import { Theme, ThemeContext, type ThemeContextProps, type ThemeType} from "../ThemeContext.ts";
 import {useMemo, useState} from "react";
+import {LOCAL_STORAGE_THEME_KEY} from "@/shared/const/localStorage/localStorage.ts";
 
 interface ThemeProviderProps {
     children?: React.ReactNode;

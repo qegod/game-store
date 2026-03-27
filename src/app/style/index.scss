@@ -10,3 +10,8 @@
 
   min-height: 100vh;
 }
+
+.page-content{
+  width: 100%;
+  height: calc(100vh - var(--size-navbar-height));
+}
